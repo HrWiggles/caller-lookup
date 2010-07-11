@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_height="wrap_content"
+		android:layout_width="fill_parent">
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/TextView"
+			android:text="@string/Description"></TextView>
+		<Spinner android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/Lookup"
+			android:prompt="@string/Lookup" android:entries="@array/Lookups"></Spinner>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/URL"
+			android:hint="@string/URL"></EditText>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/RegExp"
+			android:hint="@string/RegExp"></EditText>
+		<CheckBox android:layout_height="wrap_content" android:id="@+id/Notify"
+			android:layout_width="fill_parent" android:text="@string/Notify"></CheckBox>
+		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/TestDescription"></TextView>
+		<EditText android:layout_height="wrap_content" android:id="@+id/TestInput"
+			android:layout_width="fill_parent" android:hint="@string/TestInput"></EditText>
+		<Button android:layout_height="wrap_content" android:id="@+id/TestButton"
+			android:layout_width="fill_parent" android:text="@string/TestButton"></Button>
+	</LinearLayout>
+</ScrollView>

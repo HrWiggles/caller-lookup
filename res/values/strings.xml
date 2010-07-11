@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="AppName">CallerLookup</string>
+	<string-array name="Lookups">
+		<item>Custom</item>
+		<item>ja.is</item>
+		<item>pagesjaunes.fr</item>
+	</string-array>
+	<string name="Lookup">Select lookup</string>
+	<string name="Notify">Generate notifications for adding to contacts,
+		numbers that were looked up successfully</string>
+	<string name="TestInput">Phone number</string>
+	<string name="TestButton">Look up number</string>
+	<string name="RegExp">Regular expression</string>
+	<string name="URL">Lookup website</string>
+	<string name="Customize">Customize</string>
+	<string name="NotificationTicker">Add new contact...</string>
+	<string name="NotificationTitle">Looked up incoming caller</string>
+	<string name="NotificationContent">Add %s (%s) to contacts</string>
+	<string name="ProgressMessage">Looking up number</string>
+	<string name="Description">This program waits for incoming calls and, if the
+		caller\'s phone number is not in your contacts list, will try to look
+		up the phone number on the internet using the settings specified
+		below.\nSome predefined settings are available which can be customized
+		through the options menu.\n\n</string>
+	<string name="TestDescription">\n\nTo test the above settings, you can enter a
+		phone number in the text field below and click the button to force a
+		lookup to be performed.\nNote that this lookup does not ignore phone
+		numbers that are already in your contacts list.</string>
+</resources>
