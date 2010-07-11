@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lookupEntries>
+	<lookupEntry>
+		<name>ja.is</name>
+		<url>http://ja.is/hradleit/?q=%s</url>
+		<regexp>class=&quot;fn[^&gt;]*&gt;([^&lt;]*)&lt;</regexp>
+	</lookupEntry>
+	<lookupEntry>
+		<name>pagesjaunes.fr</name>
+		<url>http://www.pagesjaunes.fr/trouverunnom/rechercheInverse.do?numeroTelephone=%s</url>
+		<regexp>1&lt;/span&gt;\\s*&lt;strong&gt;([^&lt;]*)&lt;/strong&gt;</regexp>
+	</lookupEntry>
+</lookupEntries>
