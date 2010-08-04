@@ -2,8 +2,8 @@
 <lookupEntries>
 	<lookupEntry>
 		<name>ja.is</name>
-		<url>http://ja.is/hradleit/?q=%s</url>
-		<regexp>class=&quot;fn[^&gt;]*&gt;([^&lt;]*)&lt;</regexp>
+		<url>http://ja.is/m2/?q=%s</url>
+		<regexp>&lt;strong&gt;([^&lt;]*)&lt;</regexp>
 	</lookupEntry>
 	<lookupEntry>
 		<name>pagesjaunes.fr</name>
