@@ -10,4 +10,9 @@
 		<url>http://www.pagesjaunes.fr/trouverunnom/rechercheInverse.do?numeroTelephone=%s</url>
 		<regexp>1&lt;/span&gt;\\s*&lt;strong&gt;([^&lt;]*)&lt;/strong&gt;</regexp>
 	</lookupEntry>
+	<lookupEntry>
+		<name>whitepages.com</name>
+		<url>http://m.whitepages.com/ReversePhone.aspx?sent=true&amp;PhoneNo=%s</url>
+		<regexp>&lt;a href=\"Details.aspx;[^&gt;]*&gt;([^&lt;]*)&lt;/a&gt;</regexp>
+	</lookupEntry>
 </lookupEntries>
