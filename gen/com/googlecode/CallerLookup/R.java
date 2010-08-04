@@ -8,9 +8,6 @@
 package com.googlecode.CallerLookup;
 
 public final class R {
-    public static final class array {
-        public static final int Lookups=0x7f060000;
-    }
     public static final class attr {
     }
     public static final class drawable {
@@ -18,15 +15,15 @@ public final class R {
         public static final int icon_notification=0x7f020001;
     }
     public static final class id {
-        public static final int Lookup=0x7f070002;
-        public static final int Notify=0x7f070005;
-        public static final int RegExp=0x7f070004;
-        public static final int ScrollView=0x7f070000;
-        public static final int TestButton=0x7f070008;
-        public static final int TestInput=0x7f070007;
-        public static final int TextView=0x7f070001;
-        public static final int TextView01=0x7f070006;
-        public static final int URL=0x7f070003;
+        public static final int Lookup=0x7f060002;
+        public static final int Notify=0x7f060005;
+        public static final int RegExp=0x7f060004;
+        public static final int ScrollView=0x7f060000;
+        public static final int TestButton=0x7f060008;
+        public static final int TestInput=0x7f060007;
+        public static final int TextView=0x7f060001;
+        public static final int TextView01=0x7f060006;
+        public static final int URL=0x7f060003;
     }
     public static final class layout {
         public static final int main=0x7f030000;
@@ -35,17 +32,37 @@ public final class R {
         public static final int AppName=0x7f050000;
         public static final int Customize=0x7f050007;
         public static final int Description=0x7f05000c;
+        public static final int Help=0x7f050012;
+        public static final int HelpMessage=0x7f050021;
+        public static final int HelpTitle=0x7f050020;
         public static final int Lookup=0x7f050001;
+        public static final int Name=0x7f050013;
+        public static final int NameConfirmMessage=0x7f05001b;
+        public static final int NameConfirmTitle=0x7f05001a;
+        public static final int NameMissingMessage=0x7f050019;
+        public static final int NameMissingTitle=0x7f050018;
         public static final int NotificationContent=0x7f05000a;
         public static final int NotificationTicker=0x7f050008;
         public static final int NotificationTitle=0x7f050009;
         public static final int Notify=0x7f050002;
         public static final int ProgressMessage=0x7f05000b;
         public static final int RegExp=0x7f050005;
+        public static final int Remove=0x7f05000f;
+        public static final int RemoveMessage=0x7f050017;
+        public static final int RemoveTitle=0x7f050016;
+        public static final int Save=0x7f05000e;
+        public static final int SaveMessage=0x7f050015;
+        public static final int SaveTitle=0x7f050014;
+        public static final int Submit=0x7f050010;
+        public static final int SubmitFailureMessage=0x7f05001d;
+        public static final int SubmitFailureTitle=0x7f05001c;
         public static final int TestButton=0x7f050004;
         public static final int TestDescription=0x7f05000d;
         public static final int TestInput=0x7f050003;
         public static final int URL=0x7f050006;
+        public static final int Update=0x7f050011;
+        public static final int UpdateFinished=0x7f05001e;
+        public static final int UpdateNotNeeded=0x7f05001f;
     }
     public static final class xml {
         public static final int lookups=0x7f040000;

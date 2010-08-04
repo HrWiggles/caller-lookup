@@ -10,7 +10,7 @@
 			android:text="@string/Description"></TextView>
 		<Spinner android:layout_width="fill_parent"
 			android:layout_height="wrap_content" android:id="@+id/Lookup"
-			android:prompt="@string/Lookup" android:entries="@array/Lookups"></Spinner>
+			android:prompt="@string/Lookup"></Spinner>
 		<EditText android:layout_height="wrap_content"
 			android:layout_width="fill_parent" android:id="@+id/URL"
 			android:hint="@string/URL"></EditText>
@@ -22,7 +22,7 @@
 		<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
 			android:layout_height="wrap_content" android:text="@string/TestDescription"></TextView>
 		<EditText android:layout_height="wrap_content" android:id="@+id/TestInput"
-			android:layout_width="fill_parent" android:hint="@string/TestInput"></EditText>
+			android:layout_width="fill_parent" android:hint="@string/TestInput" android:inputType="phone"></EditText>
 		<Button android:layout_height="wrap_content" android:id="@+id/TestButton"
 			android:layout_width="fill_parent" android:text="@string/TestButton"></Button>
 	</LinearLayout>
