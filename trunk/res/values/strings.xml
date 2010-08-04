@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="AppName">CallerLookup</string>
-	<string-array name="Lookups">
-		<item>Custom</item>
-		<item>ja.is</item>
-		<item>pagesjaunes.fr</item>
-	</string-array>
 	<string name="Lookup">Select lookup</string>
 	<string name="Notify">Generate notifications for adding to contacts,
 		numbers that were looked up successfully</string>
@@ -17,7 +12,7 @@
 	<string name="NotificationTicker">Add new contact...</string>
 	<string name="NotificationTitle">Looked up incoming caller</string>
 	<string name="NotificationContent">Add %s (%s) to contacts</string>
-	<string name="ProgressMessage">Looking up number</string>
+	<string name="ProgressMessage">Please wait...</string>
 	<string name="Description">This program waits for incoming calls and, if the
 		caller\'s phone number is not in your contacts list, will try to look
 		up the phone number on the internet using the settings specified
@@ -27,4 +22,37 @@
 		phone number in the text field below and click the button to force a
 		lookup to be performed.\nNote that this lookup does not ignore phone
 		numbers that are already in your contacts list.</string>
+	<string name="Save">Save</string>
+	<string name="Remove">Remove</string>
+	<string name="Submit">Submit</string>
+	<string name="Update">Update</string>
+	<string name="Help">Help</string>
+	<string name="Name">Name</string>
+	<string name="SaveTitle">Enter name</string>
+	<string name="SaveMessage">Please enter a name for the saved entry:</string>
+	<string name="RemoveTitle">Remove entry</string>
+	<string name="RemoveMessage">Are you sure you want to remove this saved entry?</string>
+	<string name="NameMissingTitle">Missing name</string>
+	<string name="NameMissingMessage">You must enter a name</string>
+	<string name="NameConfirmTitle">Overwrite existing entry</string>
+	<string name="NameConfirmMessage">Entry with specified name already exists.  Overwrite?</string>
+	<string name="SubmitFailureTitle">Submit failed</string>
+	<string name="SubmitFailureMessage">Unable to submit because no e-mail client was found</string>
+	<string name="UpdateFinished">Update finished</string>
+	<string name="UpdateNotNeeded">Already up-to-date</string>
+	<string name="HelpTitle">Help</string>
+	<string name="HelpMessage">Custom entry can be specified by entering a URL for
+		a lookup website which includes \"%s\" (without the quotes),
+		which will be replaced with the incoming caller\'s phone number, and
+		entering a regular expression which will be used to obtain the
+		caller\'s name from the lookup website.\n\nE.g. if the URL specified
+		is http://ja.is/m2/?q=%s it will be changed to
+		http://ja.is/m2/?q=5401000 if the incoming caller\'s phone number is
+		5401000\n\nPredefined and saved entries can be customized by selecting the
+		menu item \"Customize\"\n\nCustom entry can be saved by selecting the
+		menu item \"Save\"\n\nSaved entries can be removed by selecting the
+		menu item \"Remove\"\n\nCustom entry and saved entries can be
+		submitted for inclusion as predefined entries by selecting the menu item
+		\"Submit\"\n\nPredefined entries can be updated by selecting the menu item
+		\"Update\"</string>
 </resources>
