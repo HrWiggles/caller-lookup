@@ -20,4 +20,9 @@
 		<url>http://411.ca/iphone/?pn=%s</url>
 		<regexp>class=\"cn\"&gt;.*&lt;b&gt;(.*)&lt;/b&gt;</regexp>
 	</lookupEntry>
+	<lookupEntry>
+		<name>441il.com</name>
+		<url>http://441il.com/look.php?phone=%s</url>
+		<regexp>&lt;TR&gt;&lt;TD&gt;([^&lt;]*)&lt;/TD&gt;</regexp>
+	</lookupEntry>
 </lookupEntries>
