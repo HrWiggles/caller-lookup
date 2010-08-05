@@ -15,4 +15,9 @@
 		<url>http://m.whitepages.com/ReversePhone.aspx?sent=true&amp;PhoneNo=%s</url>
 		<regexp>&lt;a href=\"Details.aspx;[^&gt;]*&gt;([^&lt;]*)&lt;/a&gt;</regexp>
 	</lookupEntry>
+	<lookupEntry>
+		<name>411.ca</name>
+		<url>http://411.ca/iphone/?pn=%s</url>
+		<regexp>class=\"cn\"&gt;.*&lt;b&gt;(.*)&lt;/b&gt;</regexp>
+	</lookupEntry>
 </lookupEntries>
